@@ -6,4 +6,4 @@ I created this repository to practice deploying a Node.js app in a Kubernetes cl
 It contains a Dockerfile for building the Docker Image, and app.yaml for creating a Deployment and a NodePort Service for MicroK8s.
 
 ```bash
-http://<node-ip>:<node-port>
+curl http://<node-ip>:<node-port>
